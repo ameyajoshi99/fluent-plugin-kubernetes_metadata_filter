@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 
 gem 'codeclimate-test-reporter', '<1.0.0', group: :test, require: nil
 gem 'rubocop'
+gem 'kubeclient', git: 'https://github.com/ManageIQ/kubeclient.git', branch: 'master'
 
 # Specify your gem's dependencies in fluent-plugin-add.gemspec
 gemspec
